@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/compose/transporter/pkg/message"
-	"github.com/compose/transporter/pkg/pipe"
+	"github.com/garyguo110/transporter/pkg/message"
+	"github.com/garyguo110/transporter/pkg/pipe"
 	version "github.com/hashicorp/go-version"
 	gorethink "gopkg.in/dancannon/gorethink.v1"
 )

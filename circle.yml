@@ -6,9 +6,9 @@ machine:
 dependencies:
   override:
     - go get github.com/tools/godep
-    - test -d /home/ubuntu/.go_workspace/src/github.com/compose/ || mkdir -p /home/ubuntu/.go_workspace/src/github.com/compose/
-    - test -e /home/ubuntu/.go_workspace/src/github.com/compose/transporter || ln -s /home/ubuntu/transporter/ /home/ubuntu/.go_workspace/src/github.com/compose/
-    - cd /home/ubuntu/.go_workspace/src/github.com/compose/transporter && $CIRCLE_ARTIFACTS/godep restore
+    - test -d /home/ubuntu/.go_workspace/src/github.com/garyguo110/ || mkdir -p /home/ubuntu/.go_workspace/src/github.com/garyguo110/
+    - test -e /home/ubuntu/.go_workspace/src/github.com/garyguo110/transporter || ln -s /home/ubuntu/transporter/ /home/ubuntu/.go_workspace/src/github.com/garyguo110/
+    - cd /home/ubuntu/.go_workspace/src/github.com/garyguo110/transporter && $CIRCLE_ARTIFACTS/godep restore
     - test -d $HOME/boto || pip install -t $HOME/boto boto
 
   cache_directories:

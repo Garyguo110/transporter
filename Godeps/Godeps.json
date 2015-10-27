@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/compose/transporter",
+	"ImportPath": "github.com/garyguo110/transporter",
 	"GoVersion": "go1.4.2",
 	"Packages": [
 		"./..."
@@ -23,7 +23,7 @@
 			"Rev": "6c45d6bc1e78d94431dff8fc28a99f20bafa355a"
 		},
 		{
-			"ImportPath": "github.com/compose/mejson",
+			"ImportPath": "github.com/garyguo110/mejson",
 			"Rev": "a53014fefceabf69c0fe2d3219d5d39ea9fbe9da"
 		},
 		{
