@@ -29,7 +29,7 @@ type Elasticsearch struct {
 
 // NewElasticsearch creates a new Elasticsearch adaptor.
 // Elasticsearch adaptors cannot be used as a source,
-func NewElasticsearch(p *pipe.Pipe, path string, extra Config) (StopStartListener, error) {
+func NewElasticsearchG(p *pipe.Pipe, path string, extra Config) (StopStartListener, error) {
 	var (
 		conf dbConfig
 		err  error
