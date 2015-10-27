@@ -5,7 +5,7 @@ import (
 	"reflect"
 
 	"github.com/compose/transporter/pkg/pipe"
-	"github.com/garyguo110/transporter/pkg/adaptor/elasticsearch"
+	// "github.com/garyguo110/transporter/pkg/adaptor/elasticsearch"
 )
 
 var (
@@ -16,7 +16,7 @@ var (
 func init() {
 	Register("mongo", "a mongodb adaptor that functions as both a source and a sink", NewMongodb, MongodbConfig{})
 	Register("file", "an adaptor that reads / writes files", NewFile, FileConfig{})
-	Register("elasticsearch", "an elasticsearch sink adaptor", NewElasticsearchG, dbConfig{})
+	Register("elasticsearch", "an elasticsearch sink adaptor", NewElasticsearch, dbConfig{})
 	// Register("influx", "an InfluxDB sink adaptor", NewInfluxdb, dbConfig{})
 	Register("transformer", "an adaptor that transforms documents using a javascript function", NewTransformer, TransformerConfig{})
 	Register("rethinkdb", "a rethinkdb sink adaptor", NewRethinkdb, rethinkDbConfig{})
