@@ -14,7 +14,7 @@ package adaptor
 // 	"net/url"
 
 // 	"github.com/compose/transporter/pkg/message"
-// 	"github.com/compose/transporter/pkg/pipe"
+// 	"github.com/garyguo110/transporter/pkg/pipe"
 // 	"github.com/influxdb/influxdb/client"
 // )
 
