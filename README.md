@@ -101,7 +101,7 @@ vagrant> ./run-test
 
 ### Windows
 
-See [READMEWINDOWS.md](https://github.com/compose/transporter/blob/master/READMEWINDOWS.md)
+See [READMEWINDOWS.md](https://github.com/garyguo110/transporter/blob/master/READMEWINDOWS.md)
 
 Transporter in the Media
 ===

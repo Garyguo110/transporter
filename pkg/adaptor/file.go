@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/compose/transporter/pkg/message"
+	"github.com/garyguo110/transporter/pkg/message"
 	"github.com/garyguo110/transporter/pkg/pipe"
 )
 
