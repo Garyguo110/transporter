@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/compose/transporter/pkg/adaptor"
+	"./pkg/adaptor"
 	"github.com/compose/transporter/pkg/transporter"
 	"github.com/nu7hatch/gouuid"
 	"github.com/robertkrimen/otto"
