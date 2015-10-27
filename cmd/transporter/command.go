@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 
-	"./pkg/adaptor"
+	"../../pkg/adaptor"
 	"github.com/mitchellh/cli"
 )
 
