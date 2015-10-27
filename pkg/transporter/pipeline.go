@@ -4,7 +4,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/garyguo110/transporter/pkg/adaptor"
+	"github.com/compose/transporter/pkg/adaptor"
 	"github.com/compose/transporter/pkg/events"
 	"github.com/compose/transporter/pkg/state"
 )

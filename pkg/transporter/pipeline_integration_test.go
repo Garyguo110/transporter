@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/garyguo110/transporter/pkg/adaptor"
+	"github.com/compose/transporter/pkg/adaptor"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 )
