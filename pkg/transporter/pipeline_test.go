@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/garyguo110/transporter/pkg/adaptor"
-	"github.com/garyguo110/transporter/pkg/pipe"
+	"github.com/compose/transporter/pkg/pipe"
 )
 
 var (

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/garyguo110/transporter/pkg/pipe"
+	"github.com/compose/transporter/pkg/pipe"
 )
 
 var (

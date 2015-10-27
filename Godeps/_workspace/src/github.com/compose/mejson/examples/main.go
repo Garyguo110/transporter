@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/garyguo110/mejson"
+	"github.com/compose/mejson"
 	mgo "gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 )

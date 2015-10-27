@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/garyguo110/transporter/pkg/message"
+	"github.com/compose/transporter/pkg/message"
 )
 
 func TestFilestore(t *testing.T) {

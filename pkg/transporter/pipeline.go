@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/garyguo110/transporter/pkg/adaptor"
-	"github.com/garyguo110/transporter/pkg/events"
-	"github.com/garyguo110/transporter/pkg/state"
+	"github.com/compose/transporter/pkg/events"
+	"github.com/compose/transporter/pkg/state"
 )
 
 // VERSION the library

@@ -6,9 +6,9 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/garyguo110/mejson"
-	"github.com/garyguo110/transporter/pkg/message"
-	"github.com/garyguo110/transporter/pkg/pipe"
+	"github.com/compose/mejson"
+	"github.com/compose/transporter/pkg/message"
+	"github.com/compose/transporter/pkg/pipe"
 	"github.com/robertkrimen/otto"
 	_ "github.com/robertkrimen/otto/underscore" // enable underscore
 )

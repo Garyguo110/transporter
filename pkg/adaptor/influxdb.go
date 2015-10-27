@@ -13,8 +13,8 @@ package adaptor
 // 	"fmt"
 // 	"net/url"
 
-// 	"github.com/garyguo110/transporter/pkg/message"
-// 	"github.com/garyguo110/transporter/pkg/pipe"
+// 	"github.com/compose/transporter/pkg/message"
+// 	"github.com/compose/transporter/pkg/pipe"
 // 	"github.com/influxdb/influxdb/client"
 // )
 
